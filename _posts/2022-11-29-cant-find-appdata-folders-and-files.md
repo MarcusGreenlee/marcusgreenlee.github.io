@@ -1,6 +1,6 @@
 ## .NET MAUI and AppData Directory
 
-<p>I'm playing around with .NET Maui w/Blazor and trying to setup logging using <a href="https://serilog.net/">Serilog</a>. Serilog will create directories and the log file for me.  I was sending the location of my AppData folder but nether the folder or file were visible via File Explorer.  Trying different things suchs as are they hidden? is there an access issue? etc... didn't give me any clue as to what was going on.  My exectuting code returned that both the directory and file were created successfully by my executing code and verified by following calls to Exists(). </p>
+<p>I'm playing around with .NET Maui w/Blazor and trying to setup logging using <a href="https://serilog.net/">Serilog</a>. Serilog will create directories and the log file for me.  I was sending the location of my AppData folder but nether the folder or file were visible via File Explorer.  Trying different things suchs as are they hidden? is there an access issue? etc... didn't give me any clue as to what was going on.  My exectuting code returned that both the directory and file were created successfully and verified by following calls to Exists(). </p>
 
 <p>I was expecting: </p>
 
