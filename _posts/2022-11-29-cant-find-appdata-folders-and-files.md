@@ -1,21 +1,20 @@
 ## .NET MAUI and AppData Directory
 
-<p>I'm playing around with .NET Maui w/Blazor and adding a folder and file to AppData but nether the folder or file were visible in File Explorer.  They weren't 
-visible, yet they were created successfully by my executing code and verified by following calles to Exists(). </p>
+<p>I'm playing around with .NET Maui w/Blazor and trying to setup logging using <a href="https://serilog.net/">Serilog</a>. Serilog will create directories and the log file for me.  I was sending the location of my AppData folder but nether the folder or file were visible via File Explorer.  Trying different things suchs as are they hidden? is there an access issue? etc... didn't give me any clue as to what was going on.  My exectuing code returned that both the directory and file were created successfully by my executing code and verified by following calls to Exists(). </p>
 
 <p>I was expecting: </p>
 
 <p>C:\Users\{USER}\AppData\Local\{APPNAME}\logs </p>
 
 <p>At this time, I don't know why this works the way it does. I used the following code to create that path and verified via the Debugger that the path was 
-what I expected.</p>
+what I expected:</p>
 
  ```C#
 string pathSt = Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData);
 string appName = System.Reflection.Assembly.GetExecutingAssembly().GetName().Name;
 string logFileName = System.IO.Path.Combine(pathStr, appName, "logs", "{APPNAME}-.log");
  ```
-<p>After discovering this page https://learn.microsoft.com/en-us/dotnet/maui/platform-integration/storage/file-system-helpers?view=net-maui-7.0&tabs=windows 
+<p>After discovering this page <a href="https://learn.microsoft.com/en-us/dotnet/maui/platform-integration/storage/file-system-helpers?view=net-maui-7.0&tabs=windows">Microsoft article</a> 
 I changed my code thus:</p>
 
  ```C#
