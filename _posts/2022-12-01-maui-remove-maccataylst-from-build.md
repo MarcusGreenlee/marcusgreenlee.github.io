@@ -1,4 +1,4 @@
-<p>At this time maccatalyst can not be removed from the build process using the Visual Studio IDE.  <a href="https://github.com/dotnet/maui/issues/11584">Issue report</a></p>
+<p>At this time maccatalyst can not be removed from the build process using the Visual Studio IDE. [Issue report]("https://github.com/dotnet/maui/issues/11584")
 
 <p>You can remove it from the build process by manually editing the .csproj file.</p>
 <ol>
