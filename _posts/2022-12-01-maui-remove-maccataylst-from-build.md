@@ -3,5 +3,5 @@
 <p>You can remove it from the build process by manually editing the .csproj file.</p>
 <ol>
 <li>In Visual Studio, double-click on your project name. This will open the project's .csproj file in your editor.  You should see text.</li>
-<li>Search for "&ltTargetFrameworks&gtnet6.0-maccatalyst&lt/TargetFrameworks&gt, and comment the line out or delete it</li>
+<li>Search for "&ltTargetFrameworks&gtnet6.0-maccatalyst&lt/TargetFrameworks&gt, then comment the line out or delete it</li>
 </ol>
