@@ -1,4 +1,4 @@
-## Visual Studio 2022 .NET Class Library Project Template Not Found
+## Work Around: Visual Studio 2022 .NET Class Library Project Template Not Found
 
 I was following these [instructions](https://learn.microsoft.com/en-us/dotnet/core/tutorials/library-with-visual-studio?pivots=dotnet-7-0) to create a .NET 7 Class Library project, but was unable to find the template in my instance of Visual Studio 2022.  I did spend sometime trying to figure out where the project template was but then realized that I was wasting time debugging something that, for my needs, wasn't a high priority.
 
