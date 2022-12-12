@@ -1,4 +1,4 @@
-## Work Around to Removing maccatalyst from MAUI Build Process
+## Work Around: Removing maccatalyst from MAUI Build Process
 
 At this time maccatalyst can not be removed from the build process using the Visual Studio IDE. [Issue report](https://github.com/dotnet/maui/issues/11584/)
 
