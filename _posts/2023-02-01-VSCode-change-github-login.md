@@ -37,5 +37,5 @@ nano ~/.gitconfig
   <li>Select Accounts->Sign in to Sync Settings.</li>
   <li>Select "Sign in with GitHub".</li>
 </ol>
-
+<p></p>
 <p>And you are now logged into the correct account</p>
